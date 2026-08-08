@@ -101,6 +101,24 @@
 | **监控** | Prometheus + Grafana | 实时性能监控与告警 |
 
 ---
+****🎮 Demo | 演示 | 演示
+<img width="720" height="1280" alt="07个人中心" src="https://github.com/user-attachments/assets/baf2e913-9d74-402a-9fbf-72fd499f5a23" />
+<img width="720" height="1280" alt="06牌局" src="https://github.com/user-attachments/assets/752474e3-1e78-440f-9e2f-d587fbf9d6fc" />
+<img width="720" height="1280" alt="05创建牌局" src="https://github.com/user-attachments/assets/93f4b22b-500b-45ae-8d82-6f5e8dc7ae55" />
+<img width="720" height="1280" alt="04俱乐部" src="https://github.com/user-attachments/assets/5bc66041-3697-45b1-ad02-08325cf9b389" />
+<img width="720" height="1280" alt="03大厅" src="https://github.com/user-attachments/assets/c0e96d59-6896-4d5e-98d2-3744aa64beab" />
+<img width="720" height="1280" alt="02大厅" src="https://github.com/user-attachments/assets/f3ad517f-17da-44d0-bf76-d4bf31f577b4" />
+<img width="720" height="1280" alt="01登录" src="https://github.com/user-attachments/assets/744e82b2-0a55-406f-897c-d1e37b7e9bdc" />
+
+
+****📞 联系我们 | Contact
+
+| 渠道          | 联系方式                                                                           |
+| ----------- | ------------------------------------------------------------------------------ |
+| 📧 Email    | <ttpoker40@gmail.com>                                                          |
+| 💬 Telegram | [@alibabama401](https://t.me/alibabama401)                                     |
+| 🐛 Issues   | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
+
 
 ## 🚀 快速开始 | Quick Start
 
@@ -274,13 +292,7 @@ Open-Source-Casino — 开源棋牌游戏项目
 
 
 
-****📞 联系我们 | Contact
 
-| 渠道          | 联系方式                                                                           |
-| ----------- | ------------------------------------------------------------------------------ |
-| 📧 Email    | <ttpoker40@gmail.com>                                                          |
-| 💬 Telegram | [@alibabama401](https://t.me/alibabama401)                                     |
-| 🐛 Issues   | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
 
 <p align="center">
   <b>⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！⭐</b><br>
