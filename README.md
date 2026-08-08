@@ -285,6 +285,9 @@ Open-Source-Casino — 开源棋牌游戏项目
 | 🐛 Issues   | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
 
 <p align="center">
-  ⭐ <b>如果这个项目对你有帮助，请点个 Star 支持一下！</b> ⭐<br>
-  <i>If this project helps you, please give it a star!</i>
+  <b>⭐ 如果这个项目对你有帮助，请点个 Star 支持一下！⭐</b><br>
+  <i>If this project helps you, please give it a star and share it with your friends!</i><br><br>
+  <a href="https://github.com/alibabamayun888/poker-club-platform/stargazers">
+    <img src="https://img.shields.io/github/stars/alibabamayun888/poker-club-platform?style=social" alt="Give a Star">
+  </a>
 </p>
