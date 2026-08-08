@@ -101,18 +101,18 @@
 | **监控** | Prometheus + Grafana | 实时性能监控与告警 |
 ---
 ###📌 系统架构图
----
+
 
 <img width="1436" height="732" alt="mermaid" src="https://github.com/user-attachments/assets/e8a788b3-88dd-4cc2-80ee-5fc12267c6ed" />
----
+
 ### 📌 Social Preview 图
  <img width="1280" height="640" alt="social-preview" src="https://github.com/user-attachments/assets/75553b66-d2d4-412e-b3f0-01c91ec5b814" />
----
+
 ###📌 GIF 演示区 START
 <p align="center">
   <img src="./docs/demo.gif" alt="Texas Hold'em Poker Club Platform 实时对战演示" width="800">
 </p>
----
+
 🎮 Demo | 演示 | 演示
 <img width="720" height="1280" alt="07个人中心" src="https://github.com/user-attachments/assets/baf2e913-9d74-402a-9fbf-72fd499f5a23" />
 <img width="720" height="1280" alt="06牌局" src="https://github.com/user-attachments/assets/752474e3-1e78-440f-9e2f-d587fbf9d6fc" />
