@@ -5,12 +5,6 @@
   &lt;b&gt;德州撲克俱樂部系統 | Sistema de Club de Póker Texas Hold'em&lt;/b&gt;
 &lt;/p&gt;
 
-&lt;p align="center"&gt;
-  &lt;img src="https://img.shields.io/badge/C%2B%2B-17-blue?style=flat-square&logo=c%2B%2B" alt="C++17"&gt;
-  &lt;img src="https://img.shields.io/badge/Unity-2022+-black?style=flat-square&logo=unity" alt="Unity"&gt;
-  &lt;img src="https://img.shields.io/badge/License-Custom-orange?style=flat-square" alt="License"&gt;
-  &lt;img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20iOS%20%7C%20Android-green?style=flat-square" alt="Platform"&gt;
-&lt;/p&gt;
 
 ---
 
