@@ -99,7 +99,106 @@
 | **消息队列** | RabbitMQ / Kafka | 异步任务处理，削峰填谷 |
 | **部署** | Docker + Kubernetes | 容器化部署，一键扩缩容 |
 | **监控** | Prometheus + Grafana | 实时性能监控与告警 |
+---
+###系统架构图
+flowchart TB
+    subgraph Client["🎮 客户端层 | Client Layer"]
+        direction LR
+        C1["📱 iOS"]
+        C2["📱 Android"]
+        C3["🌐 H5 / WebGL"]
+        C4["💻 Windows"]
+        C5["💻 macOS"]
+        Unity["Unity 2022.3 LTS"]
+    end
 
+    subgraph Gateway["🛡️ 网关层 | Gateway Layer"]
+        direction TB
+        Nginx["Nginx\n反向代理 / 静态资源"]
+        LB["Load Balancer\n负载均衡"]
+        WSG["WebSocket Gateway\n连接管理 / 心跳检测"]
+    end
+
+    subgraph Service["⚙️ 服务层 | Service Layer (C++17)"]
+        direction TB
+        GS["🎲 Game Server\n核心游戏逻辑 / 牌桌管理"]
+        MS["🎯 Matchmaking Server\n匹配系统 / MTT / SNG"]
+        CS["🏢 Club Server\n俱乐部 / 联盟 / 代理分销"]
+        AS["🔐 Auth Server\n用户认证 / 权限管理"]
+        ChatS["💬 Chat Server\n语音 / 视频 / 文字聊天"]
+        PS["💰 Payment Server\n支付 / 返利 / 结算"]
+    end
+
+    subgraph Data["💾 数据层 | Data Layer"]
+        direction TB
+        MySQL[("🗄️ MySQL 8.0\n用户数据 / 俱乐部数据 / 战绩" )]
+        Redis[("⚡ Redis 7.0\n会话缓存 / 排行榜 / 实时状态")]
+        MQ[("📨 RabbitMQ / Kafka\n异步任务 / 消息队列")]
+        MinIO["📁 MinIO\n文件存储 / 头像 / 手牌回放"]
+    end
+
+    subgraph Monitor["📊 监控层 | Monitoring"]
+        Prom["Prometheus\n指标采集"]
+        Graf["Grafana\n可视化面板"]
+        ELK["ELK Stack\n日志分析"]
+    end
+
+    C1 --> Unity
+    C2 --> Unity
+    C3 --> Unity
+    C4 --> Unity
+    C5 --> Unity
+    Unity -->|"WebSocket / HTTPS"| Nginx
+    Nginx --> LB
+    LB --> WSG
+    WSG -->|"Protobuf"| GS
+    WSG -->|"Protobuf"| MS
+    WSG -->|"Protobuf"| CS
+    WSG -->|"Protobuf"| AS
+    WSG -->|"WebRTC / WebSocket"| ChatS
+    WSG -->|"HTTPS"| PS
+
+    GS -->|"SQL"| MySQL
+    MS -->|"SQL"| MySQL
+    CS -->|"SQL"| MySQL
+    AS -->|"SQL"| MySQL
+    PS -->|"SQL"| MySQL
+    ChatS -->|"SQL"| MySQL
+
+    GS -->|"Cache"| Redis
+    MS -->|"Cache"| Redis
+    CS -->|"Cache"| Redis
+    AS -->|"Cache"| Redis
+
+    GS -->|"Event"| MQ
+    MS -->|"Event"| MQ
+    PS -->|"Event"| MQ
+    ChatS -->|"Event"| MQ
+
+    MQ -->|"Consume"| MySQL
+
+    GS -->|"Metrics"| Prom
+    MS -->|"Metrics"| Prom
+    CS -->|"Metrics"| Prom
+    Prom --> Graf
+    GS -->|"Logs"| ELK
+    MS -->|"Logs"| ELK
+    CS -->|"Logs"| ELK
+
+    GS -->|"File Upload"| MinIO
+    ChatS -->|"File Upload"| MinIO
+
+    style Client fill:#1a1f3a,stroke:#00d4ff,stroke-width:2px,color:#fff
+    style Gateway fill:#1a1f3a,stroke:#f39c12,stroke-width:2px,color:#fff
+    style Service fill:#1a1f3a,stroke:#2ecc71,stroke-width:2px,color:#fff
+    style Data fill:#1a1f3a,stroke:#e74c3c,stroke-width:2px,color:#fff
+    style Monitor fill:#1a1f3a,stroke:#9b59b6,stroke-width:2px,color:#fff
+    style Unity fill:#2d3748,stroke:#00d4ff,stroke-width:2px,color:#fff
+    style GS fill:#2d3748,stroke:#2ecc71,stroke-width:2px,color:#fff
+    style MySQL fill:#2d3748,stroke:#e74c3c,stroke-width:2px,color:#fff
+    style Redis fill:#2d3748,stroke:#e74c3c,stroke-width:2px,color:#fff
+    style Nginx fill:#2d3748,stroke:#f39c12,stroke-width:2px,color:#fff
+    style Prom fill:#2d3748,stroke:#9b59b6,stroke-width:2px,color:#fff
 ---
 ****🎮 Demo | 演示 | 演示
 <img width="720" height="1280" alt="07个人中心" src="https://github.com/user-attachments/assets/baf2e913-9d74-402a-9fbf-72fd499f5a23" />
