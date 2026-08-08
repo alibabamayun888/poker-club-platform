@@ -100,7 +100,7 @@
 | **部署** | Docker + Kubernetes | 容器化部署，一键扩缩容 |
 | **监控** | Prometheus + Grafana | 实时性能监控与告警 |
 ---
-##📌 系统架构图
+📌 系统架构图
 ---
 
 <img width="1436" height="732" alt="mermaid" src="https://github.com/user-attachments/assets/e8a788b3-88dd-4cc2-80ee-5fc12267c6ed" />
@@ -109,7 +109,7 @@
  <img width="1280" height="640" alt="social-preview" src="https://github.com/user-attachments/assets/75553b66-d2d4-412e-b3f0-01c91ec5b814" />
 
 ---
-##🎮 Demo | 演示 | 演示
+🎮 Demo | 演示 | 演示
 <img width="720" height="1280" alt="07个人中心" src="https://github.com/user-attachments/assets/baf2e913-9d74-402a-9fbf-72fd499f5a23" />
 <img width="720" height="1280" alt="06牌局" src="https://github.com/user-attachments/assets/752474e3-1e78-440f-9e2f-d587fbf9d6fc" />
 <img width="720" height="1280" alt="05创建牌局" src="https://github.com/user-attachments/assets/93f4b22b-500b-45ae-8d82-6f5e8dc7ae55" />
