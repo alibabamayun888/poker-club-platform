@@ -1,7 +1,28 @@
-<div align="center">
-商业级德州扑克俱乐部系统 · Texas Hold'em Poker Club Platform
-C++17 高性能游戏服务端 + Unity 跨平台客户端 + WebSocket 实时通信
-<p> <a href="https://github.com/alibabamayun888/poker-club-platform"> <img src="https://img.shields.io/github/stars/alibabamayun888/poker-club-platform?style=for-the-badge&logo=github" alt="GitHub Stars"> </a> <a href="https://github.com/alibabamayun888/poker-club-platform/fork"> <img src="https://img.shields.io/github/forks/alibabamayun888/poker-club-platform?style=for-the-badge&logo=github" alt="GitHub Forks"> </a> <ahref="https://github.com/alibabamayun888/poker-club-platform/releases"> <img src="https://img.shields.io/github/v/release/alibabamayun888/poker-club-platform?style=for-the-badge" alt="Latest Release"> </a> <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B" alt="C++17"> <img src="https://img.shields.io/badge/Unity-2022%2B-black?style=for-the-badge&logo=unity" alt="Unity"> <img src="https://img.shields.io/badge/WebSocket-Realtime-blueviolet?style=for-the-badge" alt="WebSocket"> <img src="https://img.shields.io/badge/License-Custom-orange?style=for-the-badge" alt="License"> </p>  
+<p align="center">
+  <img src="https://img.shields.io/badge/C%2B%2B-17-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++17 Badge">
+  <img src="https://img.shields.io/badge/Unity-2022+-000000?style=for-the-badge&logo=unity&logoColor=white" alt="Unity Badge">
+  <img src="https://img.shields.io/badge/License-Custom-orange?style=for-the-badge" alt="License Badge">
+  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20iOS%20%7C%20Android-brightgreen?style=for-the-badge" alt="Platform Badge">
+  <img src="https://img.shields.io/badge/Real--Time-WebSocket-blueviolet?style=for-the-badge" alt="WebSocket Badge">
+</p>
+
+<h1 align="center">🃏 Texas Hold'em Poker Club Platform</h1>
+
+<p align="center">
+  <b>商业级德州扑克俱乐部系统源码 | Commercial-Grade Texas Hold'em Poker Club Source Code</b><br>
+  <b>德州撲克俱樂部系統 | Mã nguồn Poker Texas Hold'em | ポーカークラブシステム</b>
+</p>
+<p align="center">
+  <a href="https://github.com/alibabamayun888/poker-club-platform/stargazers">
+    <img src="https://img.shields.io/github/stars/alibabamayun888/poker-club-platform?style=social" alt="GitHub Stars">
+  </a>
+  <a href="https://github.com/alibabamayun888/poker-club-platform/network/members">
+    <img src="https://img.shields.io/github/forks/alibabamayun888/poker-club-platform?style=social" alt="GitHub Forks">
+  </a>
+  <a href="https://github.com/alibabamayun888/poker-club-platform/issues">
+    <img src="https://img.shields.io/github/issues/alibabamayun888/poker-club-platform?style=social" alt="GitHub Issues">
+  </a>
+</p>
 ---
 
 ## 📑 目录 | Table of Contents
