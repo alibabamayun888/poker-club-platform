@@ -53,7 +53,7 @@
 
 ## 📌 项目简介 | Project Introduction
 
-**Texas Hold'em Poker Club Platform** 是一套完整的**商业级德州扑克俱乐部系统源码**，采用 **C++17 高性能服务端 + Unity 跨平台客户端** 架构，支持 **私人牌桌、朋友局、俱乐部联盟、MTT/SNG 锦标赛、代理分销系统** 等完整商业功能。
+**Texas Hold'em Poker Club Platform** 是一套完整的**商业级德州扑克俱乐部系统源码**，采用 **C++17 高性能服务端 + Unity 跨平台客户端** 架构，支持 **私人牌桌、朋友局、俱乐部联盟、MTT/SNG 锦标赛、分销系统** 等完整商业功能。
 
 &gt; 🔍 **适合搜索关键词**：德州扑克源码、Poker Source Code、Texas Hold'em GitHub、Poker Platform、Online Poker Server、多人扑克游戏引擎、俱乐部系统源码、Poker Club System、德州APP源码、Poker Game Engine
 
@@ -239,7 +239,7 @@ poker-club-platform/
 
 Q1: 这个项目可以用于商业用途吗？
 
-A: 本项目源码仅供学习、研究和演示使用。如需商业授权，请联系下方邮箱获取商业许可协议。
+A: 本项目源码仅供学习、研究和演示使用。
 Q2: 支持哪些平台部署？
 
 A: 服务端支持 Linux (Ubuntu/CentOS) 和 Windows Server。客户端支持 iOS、Android、H5 (WebGL)、Windows、macOS。
@@ -275,7 +275,7 @@ v1.2.0 (2026-08-01)
 v1.1.0 (2026-06-15)
 
 ✨ 新增俱乐部联盟系统
-✨ 新增代理分销三级返利
+✨ 新增分销三级返利
 🔒 增强反作弊检测模块
 v1.0.0 (2026-05-01)
 
