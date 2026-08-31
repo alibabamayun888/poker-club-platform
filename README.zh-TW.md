@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-本專案是商業級德州撲克俱樂部系統原始碼，面向撲克俱樂部、金幣大廳、聯盟系統、私人局、MTT 賽事、玩家中心和多玩法德州撲克產品，適合用於產品展示、技術評估、二次開發、私有化部署和 GitHub Pages 搜尋優化。
+本專案是商業級德州撲克俱樂部系統原始碼，面向撲克俱樂部、金幣大廳、聯盟系統、私人局、MTT 賽事、玩家中心和多玩法德州撲克產品，適合用於產品展示、技術評估、二次開發、私有化部署。
 
 ## 閱讀與下載
 
@@ -41,13 +41,21 @@
 
 ![德州撲克俱樂部平台 赠币功能 產品截圖](docs/Assets/Screenshots/zengbi.JPG)
 
+
+## 📞 联系我们 | Contact
+
+| 渠道 | 联系方式 |
+|------|---------|
+| 📧 Email | ttpoker40@gmail.com |
+| 💬 Telegram | [@alibabama401](https://t.me/alibabama401) |
+| 🐛 Issues | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
 ## 核心能力
 
 - 德州撲克大廳、牌桌、遊戲介面和玩家中心展示
 - 俱樂部、聯盟、私人局、金幣大廳和贈幣功能場景
 - MTT 賽事、多玩法入口和營運功能展示
 - 適合二次開發、介面換膚、功能擴展和私有化部署
-- 可透過 GitHub Pages 發布專案首頁，方便 Google 和 Bing 收錄
+
 
 ## 適用場景
 
@@ -56,17 +64,6 @@
 - 多人線上棋牌遊戲產品原型
 - GitHub Pages 專案首頁與搜尋引擎優化
 
-## GitHub Pages
-
-專案首頁檔案位於 `docs/index.html`。如果使用 GitHub Pages，推薦設定：
-
-- Source：Deploy from a branch
-- Branch：main
-- Folder：/docs
-
-發布地址：
-
-https://alibabamayun888.github.io/poker-club-platform/
 
 ## 關鍵詞
 
