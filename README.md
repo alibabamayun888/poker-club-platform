@@ -128,14 +128,13 @@
 <img width="720" height="1280" alt="01登录" src="https://github.com/user-attachments/assets/744e82b2-0a55-406f-897c-d1e37b7e9bdc" />
 
 
-****📞 联系我们 | Contact
+## 📞 联系我们 | Contact
 
-| 渠道          | 联系方式                                                                           |
-| ----------- | ------------------------------------------------------------------------------ |
-| 📧 Email    | <ttpoker40@gmail.com>                                                          |
-| 💬 Telegram | [@alibabama401](https://t.me/alibabama401)                                     |
-| 🐛 Issues   | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
-
+| 渠道 | 联系方式 |
+|------|---------|
+| 📧 Email | ttpoker40@gmail.com |
+| 💬 Telegram | [@alibabama401](https://t.me/alibabama401) |
+| 🐛 Issues | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
 
 ## 🚀 快速开始 | Quick Start
 
@@ -197,22 +196,32 @@ nohup ./GameServer --config=../config/server.conf > /dev/null 2>&1 &
 
 
 
+## 📁 项目结构 | Project Structure
 
-### 📁 项目结构 | Project Structure
-
-plain
-
-Texas-Holdem-Poker-Club-Platform/
-├── Client/                 # Unity 客户端源码
-├── Server/                 # C++ 游戏服务端
-│   ├── Core/               # 核心游戏逻辑
-│   ├── Network/            # 网络通信层
-│   ├── DB/                 # 数据库操作
-│   └── Modules/            # 功能模块
-├── Proto/                  # 通信协议定义
-├── Config/                 # 配置文件
-├── Tools/                  # 辅助工具
-└── Docs/                   # 部署文档
+```text
+poker-club-platform/
+├── 📂 Client/                    # Unity 客户端源码
+│   ├── Assets/
+│   │   ├── Scripts/              # C# 游戏逻辑
+│   │   ├── Resources/            # 预制体与材质
+│   │   └── Plugins/              # 原生插件
+│   └── Build/                    # 各平台构建脚本
+├── 📂 Server/                    # C++ 游戏服务端
+│   ├── Core/                     # 核心游戏引擎（发牌、结算、牌型判断）
+│   ├── Network/                  # 网络层（WebSocket / TCP）
+│   ├── DB/                       # 数据库 ORM 与缓存层
+│   ├── Matchmaking/              # 匹配系统（MTT / SNG / Cash）
+│   ├── Club/                     # 俱乐部管理模块
+│   └── Gateway/                  # 网关与负载均衡
+├── 📂 Proto/                     # Protobuf 通信协议定义
+├── 📂 Config/                    # 配置文件（JSON / YAML）
+├── 📂 Tools/                     # 辅助工具（压测脚本、数据迁移）
+├── 📂 Docs/                      # 部署文档与 API 说明
+├── 📂 Docker/                    # Docker 镜像与编排文件
+├── 📂 Tests/                     # 单元测试与集成测试
+└── 📄 README.md                  # 本文件
+```
+## 📁 项目结构 | Project Structure
 
 ⚡ 性能基准 | Performance Benchmark
 
