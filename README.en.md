@@ -2,7 +2,7 @@
 
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-This project is a commercial-grade Texas Holdem poker club platform source code project for poker clubs, coin lobbies, alliance systems, private rooms, MTT tournaments, player centers, and multi-mode poker products. It is suitable for product presentation, technical evaluation, secondary development, private deployment, and GitHub Pages SEO optimization.
+This project is a commercial-grade Texas Holdem poker club platform source code project for poker clubs, coin lobbies, alliance systems, private rooms, MTT tournaments, player centers, and multi-mode poker products. It is suitable for product presentation, technical evaluation, secondary development, private deployment,.
 
 ## Reading and Download
 
@@ -41,6 +41,15 @@ This repository focuses on **Poker Club Platform Source Code**. It can be used t
 
 ![Poker club platform screenshot - 赠币功能](docs/Assets/Screenshots/zengbi.JPG)
 
+
+## 📞 联系我们 | Contact
+
+| 渠道 | 联系方式 |
+|------|---------|
+| 📧 Email | ttpoker40@gmail.com |
+| 💬 Telegram | [@alibabama401](https://t.me/alibabama401) |
+| 🐛 Issues | [GitHub Issues](https://github.com/alibabamayun888/poker-club-platform/issues) |
+
 ## Core Capabilities
 
 - Texas Holdem lobby, poker table, game UI, and player center presentation
@@ -56,17 +65,6 @@ This repository focuses on **Poker Club Platform Source Code**. It can be used t
 - Multiplayer online card game prototype
 - GitHub Pages homepage and search engine optimization
 
-## GitHub Pages
-
-The project homepage file is located at `docs/index.html`. For GitHub Pages, use:
-
-- Source: Deploy from a branch
-- Branch: main
-- Folder: /docs
-
-Published URL:
-
-https://alibabamayun888.github.io/poker-club-platform/
 
 ## Keywords
 
