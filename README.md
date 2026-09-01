@@ -9,11 +9,11 @@
   <img src="https://img.shields.io/badge/Real--Time-WebSocket-blueviolet?style=for-the-badge" alt="WebSocket Badge">
 </p>
 
-<h1 align="center">🃏 Texas Hold'em Poker Club Platform</h1>
+
 
 <p align="center">
   <b>商业级德州扑克俱乐部系统源码 | Commercial-Grade Texas Hold'em Poker Club Source Code</b><br>
-  <b>德州撲克俱樂部系統 | Mã nguồn Poker Texas Hold'em | ポーカークラブシステム</b>
+  <b>德州撲克俱樂部系統  </b>
 </p>
 <p align="center">
   <a href="https://github.com/alibabamayun888/poker-club-platform/stargazers">
@@ -45,7 +45,7 @@
 - [常见问题 FAQ](#-常见问题-faq)
 - [更新日志](#-更新日志--changelog)
 - [贡献指南](#-贡献指南--contributing)
-- [关键词索引](#-关键词索引--seo-keywords)
+
 - [许可证](#-许可证--license)
 - [联系我们](#-联系我们--contact)
 
@@ -55,15 +55,13 @@
 
 **Texas Hold'em Poker Club Platform** 是一套完整的**商业级德州扑克俱乐部系统源码**，采用 **C++17 高性能服务端 + Unity 跨平台客户端** 架构，支持 **私人牌桌、朋友局、俱乐部联盟、MTT/SNG 锦标赛、分销系统** 等完整商业功能。
 
-&gt; 🔍 **适合搜索关键词**：德州扑克源码、Poker Source Code、Texas Hold'em GitHub、Poker Platform、Online Poker Server、多人扑克游戏引擎、俱乐部系统源码、Poker Club System、德州APP源码、Poker Game Engine
+
 
 | 语言 | 项目名称 |
 |------|---------|
 | 中文 | 德州扑克俱乐部系统源码 / 德州游戏源码 / 朋友局源码 |
 | English | Texas Hold'em Poker Club Source Code / Poker Platform Source Code |
-| Tiếng Việt | Mã nguồn Poker Texas Hold'em / Mã nguồn Club Poker |
-| 日本語 | テキサスホールデムポーカークラブシステム |
-| Português | Código Fonte do Clube de Pôquer Texas Hold'em |
+
 
 ---
 
@@ -110,8 +108,6 @@
 <img width="1436" height="732" alt="mermaid" src="https://github.com/user-attachments/assets/e8a788b3-88dd-4cc2-80ee-5fc12267c6ed" />
 
 ### 📌 Social Preview 图
- <img width="1280" height="640" alt="social-preview" src="https://github.com/user-attachments/assets/75553b66-d2d4-412e-b3f0-01c91ec5b814" />
-
 
 
 📌 GIF 演示区 START
@@ -121,7 +117,7 @@
 
 
 
-🎮 Demo | 演示 | 演示
+🎮 Demo | 演示 
 <img width="720" height="1280" alt="07个人中心" src="https://github.com/user-attachments/assets/baf2e913-9d74-402a-9fbf-72fd499f5a23" />
 <img width="720" height="1280" alt="06牌局" src="https://github.com/user-attachments/assets/752474e3-1e78-440f-9e2f-d587fbf9d6fc" />
 <img width="720" height="1280" alt="05创建牌局" src="https://github.com/user-attachments/assets/93f4b22b-500b-45ae-8d82-6f5e8dc7ae55" />
@@ -205,28 +201,15 @@ nohup ./GameServer --config=../config/server.conf > /dev/null 2>&1 &
 poker-club-platform/
 ├── 📂 Client/                    # Unity 客户端源码
 │   ├── Assets/
-│   │   ├── Scripts/              # C# 游戏逻辑
-│   │   ├── Resources/            # 预制体与材质
-│   │   └── Plugins/              # 原生插件
 │   └── Build/                    # 各平台构建脚本
 ├── 📂 Server/                    # C++ 游戏服务端
-│   ├── Core/                     # 核心游戏引擎（发牌、结算、牌型判断）
-│   ├── Network/                  # 网络层（WebSocket / TCP）
-│   ├── DB/                       # 数据库 ORM 与缓存层
-│   ├── Matchmaking/              # 匹配系统（MTT / SNG / Cash）
-│   ├── Club/                     # 俱乐部管理模块
-│   └── Gateway/                  # 网关与负载均衡
-├── 📂 Proto/                     # Protobuf 通信协议定义
-├── 📂 Config/                    # 配置文件（JSON / YAML）
+│  
 ├── 📂 Tools/                     # 辅助工具（压测脚本、数据迁移）
 ├── 📂 Docs/                      # 部署文档与 API 说明
-├── 📂 Docker/                    # Docker 镜像与编排文件
-├── 📂 Tests/                     # 单元测试与集成测试
+
 └── 📄 README.md                  # 本文件
 ```
-## 📁 项目结构 | Project Structure
 
-⚡ 性能基准 | Performance Benchmark
 
 ###📚 API 文档 | API Documentation
 
@@ -293,16 +276,6 @@ v1.0.0 (2026-05-01)
 
 
 
-
-
-### 🌐 关键词索引 | SEO Keywords
-
-方便搜索引擎索引，覆盖多语言搜索场景
-中文关键词： 德州源码、德州扑克源码、德州俱乐部源码、德州游戏源码、德州MTT源码、德州撲克源碼、德州俱樂部系統、朋友局源码、私人牌桌、联盟系统、德州扑克平台、德州APP源码、扑克游戏引擎、扑克服务端源码、棋牌游戏源码、扑克平台搭建
-
-
-English Keywords: Texas Hold'em Source Code, Poker Platform Source Code, Poker Club System, Multiplayer Poker Game, Online Poker Server, Poker Game Engine, Texas Hold'em GitHub, Poker Backend
-Tiếng Việt: Mã nguồn Poker Texas Hold'em, Mã nguồn Club Poker, Game bài Poker, Hệ thống câu lạc bộ Poker
 
 ****📜 许可证 | License
 
