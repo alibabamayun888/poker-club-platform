@@ -126,68 +126,16 @@
 - **DB**：MySQL 8.0+ / Redis 6.0+
 - **Client**：Unity 2022.3 LTS（可选，仅客户端开发需要）
 
-### Docker 一键部署
 
-```bash
-# 1. 克隆仓库
-git clone https://github.com/alibabamayun888/poker-club-platform.git
-cd poker-club-platform
-
-# 2. 使用 Docker Compose 启动全部服务
-docker-compose up -d
-
-# 3. 检查服务状态
-docker-compose ps
-
-# 4. 查看服务端日志
-docker-compose logs -f gameserver
-```
-
-Docker 镜像包含 GameServer、MySQL、Redis 和 Nginx。
-
-### 源码编译
-
-```bash
-# 克隆仓库
-git clone https://github.com/alibabamayun888/poker-club-platform.git
-cd poker-club-platform
-
-# 创建构建目录
-mkdir build && cd build
-
-# 生成 Makefile
-cmake .. -DCMAKE_BUILD_TYPE=Release
-
-# 编译
-make -j$(nproc)
-
-# 运行单元测试
-ctest --output-on-failure
-
-# 启动服务端
-./GameServer --config=../config/server.conf
-```
-
-### 运行
-
-```bash
-# 前台运行（调试模式）
-./GameServer --config=../config/server.conf --log-level=debug
-
-# 后台运行（生产模式）
-nohup ./GameServer --config=../config/server.conf > /dev/null 2>&1 &
-```
 
 ## 项目结构
 
 ```text
 poker-club-platform/
-├── Client/              # Unity 客户端源码
-│   ├── Assets/
-│   └── Build/           # 各平台构建脚本
+├── Assets/              # Unity 客户端源码
+│   └── Scripts/           # 各平台构建脚本
 ├── Server/              # C++ 游戏服务端
-├── Tools/               # 辅助工具（压测脚本、数据迁移）
-├── Docs/                # 部署文档与 API 说明
+├── docs/                # 部署文档与 API 说明
 └── README.md
 ```
 
@@ -223,7 +171,7 @@ poker-club-platform/
 
 ### 数据库使用 MySQL 还是 PostgreSQL？
 
-当前版本使用 MySQL 8.0。PostgreSQL 支持正在开发中，预计在 v2.1 版本发布。
+当前版本使用 MySQL 8.0。
 
 ### 如何接入第三方支付？
 
@@ -231,7 +179,7 @@ poker-club-platform/
 
 ### 是否支持多语言？
 
-客户端内置中、英、越、日、葡等 12 种语言，服务端可通过配置文件扩展。
+客户端内置中、英、韩等 多种语言，服务端可通过配置文件扩展。
 
 ## 更新日志
 
