@@ -1,4 +1,4 @@
-# Poker Club Platform｜德州撲克俱樂部系統原始碼
+# Poker Club Platform｜德州撲克俱樂部系統原始碼｜德州撲克原始碼
 
 [簡體中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
@@ -40,7 +40,7 @@
 
 ## 專案簡介
 
-**Texas Hold'em Poker Club Platform** 是一套完整的商業級德州撲克俱樂部系統原始碼，採用 **C++17 高效能服務端 + Unity 跨平台客戶端** 架構，支援私人牌桌、好友局、俱樂部聯盟、MTT/SNG 錦標賽與代理分銷系統。
+**Texas Hold'em Poker Club Platform** 是一套完整的运用級德州撲克俱樂部系統原始碼，採用 **C++17 高效能服務端 + Unity 跨平台客戶端** 架構，支援私人牌桌、好友局、俱樂部聯盟、MTT/SNG 錦標賽與代理分銷系統。
 
 | 語言 | 專案名稱 |
 |---|---|
@@ -158,10 +158,6 @@ poker-club-platform/
 ### 如何升級到最新版本？
 
 執行 `git pull` 取得最新程式碼。Docker 使用者可執行 `docker-compose pull && docker-compose up -d`。
-
-### 最大支援多少人同時上線？
-
-單節點部署支援 10,000 個並行連線，並可透過 Kubernetes 水平擴充。
 
 ### 使用哪個資料庫？
 
