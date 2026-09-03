@@ -44,7 +44,7 @@
 
 ## 项目简介
 
-**Texas Hold'em Poker Club Platform** 是一套完整的商业级德州扑克俱乐部系统源码，采用 **C++17 高性能服务端 + Unity 跨平台客户端** 架构，支持私人牌桌、朋友局、俱乐部联盟、MTT/SNG 锦标赛、分销系统等完整商业功能。
+**Texas Hold'em Poker Club Platform** 是一套完整的运营级德州扑克俱乐部系统源码，采用 **C++17 高性能服务端 + Unity 跨平台客户端** 架构，支持私人牌桌、朋友局、俱乐部联盟、MTT/SNG 锦标赛、分销系统等完整功能。
 
 | 语言 | 项目名称 |
 |---|---|
@@ -165,17 +165,11 @@ poker-club-platform/
 
 执行 `git pull` 获取最新代码。Docker 用户执行 `docker-compose pull && docker-compose up -d`。
 
-### 最大支持多少人在线？
-
-单节点部署支持 10,000 并发，通过 Kubernetes 横向扩展可支持百万级在线。
 
 ### 数据库使用 MySQL 还是 PostgreSQL？
 
 当前版本使用 MySQL 8.0。
 
-### 如何接入第三方支付？
-
-参考 `./Docs/Payment-Integration.md`，项目已内置 Stripe、PayPal、支付宝和微信支付接口模板。
 
 ### 是否支持多语言？
 
