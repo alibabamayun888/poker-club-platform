@@ -1,4 +1,4 @@
-# Poker Club Platform｜德州扑克俱乐部系统源码｜德州源码
+# Poker Club Platform｜德州扑克俱乐部源码｜德州源码
 
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
